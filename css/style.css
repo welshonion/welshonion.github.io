@@ -1,0 +1,112 @@
+body {
+  font-family: "Avenir Next";
+  padding:0px;
+  margin:0px;
+}
+
+li {
+  list-style: none;
+}
+
+.ad{
+  font-size:40px;
+  color: #333333;
+  text-align: center;
+}
+
+.header{
+  background-color:#444;
+  color:#eeeeee;
+  height:90px;
+}
+
+.header-logo{
+  float:left;
+  font-size:36px;
+  padding:20px 30px;
+}
+
+.header-list{
+  float:right;
+}
+.header-list li{
+  float:left;
+  padding:20px 10px;
+}
+
+.main{
+  padding:100px 80px;
+}
+
+.main-visual{
+  font-size:80px;
+  text-align:center;
+}
+
+.contents{
+  font-size:5px;
+  text-align:center;
+  margin-top: 50px;
+  text-decoration: line-through;
+  height:2000px;
+}
+
+.footer {
+  background-color: #444;
+  color: #eee;
+  height: 100px;
+  padding: 10px;
+}
+
+.footer-contact{
+  float:left;
+  /*background-color: #888;*/
+  padding: 0px;
+  height:100px;
+  border: solid 1px #fff;
+}
+.contact-index{
+  /*background-color: cornflowerblue;*/
+  margin:0px;
+}
+.contact-list{
+  margin:0px;
+  padding:0px 10px;
+}
+.list-content{
+  /*display:inline-block;*/
+  display:flex;
+  justify-content: center;
+  padding: 0px;
+  /*background-color: rgb(255, 190, 110);*/
+  width:280px;
+  height:70px;
+}
+.list-content p{
+  margin:0px;
+  text-align: center;
+}
+.contact-list a{
+  /*background-color: rgb(105, 238, 105);*/
+  display:table-cell;
+  margin:0px;
+  text-decoration: none;
+  color:#eee;
+}
+.imgicon{
+  width: 20%;
+  height:auto;
+  margin:10px 10px;
+  vertical-align: middle;
+}
+.footer-copyright{
+  float:right;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/*.footer-copyright{
+  float:right;
+  padding :10px;
+}*/
+
