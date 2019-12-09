@@ -35,7 +35,8 @@ li {
 }
 
 .main{
-  padding:100px 80px;
+  background-color: rgb(236, 243, 172);
+  padding:100px 50px;
 }
 
 .main-visual{
@@ -44,12 +45,89 @@ li {
 }
 
 .contents{
-  font-size:5px;
-  text-align:center;
+  font-size:20px;
+  /*text-align:center;*/
   margin-top: 50px;
-  text-decoration: line-through;
-  height:2000px;
+  /*text-decoration: line-through;*/
+  /*height: 5000px;*/
 }
+
+.section-title{
+  border-bottom: 2px solid #dee7ec;
+  text-align:center;
+}
+
+.section-main-block{
+  display: flex;
+}
+
+.section-main-image{
+  background-color: bisque;
+}
+
+.section-main-text{
+  background-color: rgb(211, 19, 195);
+}
+
+.imgicon{
+  width: 80%;
+  height:auto;
+  margin:10px 10px;
+  vertical-align: middle;
+}
+
+
+
+
+.section-work-block {
+  /*height: 500px;*/
+  margin-top: 100px;
+  overflow:auto; 
+  background-color: darkgoldenrod;
+}
+
+.asection-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  background-color: darkred;
+}
+
+.works-card {
+  width: 200px;
+  background-color: cadetblue;
+  float: left;
+  margin: 10px;
+  text-align:center;
+  border: 0.5px solid #555;
+}
+
+.works-card p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.works-card .madopic{
+  width: 80%;
+  height:auto;
+  margin:10px 10px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
   background-color: #444;
@@ -93,7 +171,7 @@ li {
   text-decoration: none;
   color:#eee;
 }
-.imgicon{
+.twiimgicon{
   width: 20%;
   height:auto;
   margin:10px 10px;
