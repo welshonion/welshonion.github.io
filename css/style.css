@@ -295,6 +295,12 @@ a:hover{
   margin: 0px;
 }
 
+.works-play{
+  font-size: 15px;
+  margin: 0px;
+  margin-left:10px;
+}
+
 .image-works{
   width: 80%;
   height:auto;
